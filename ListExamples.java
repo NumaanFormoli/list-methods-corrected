@@ -29,10 +29,9 @@ class ListExamples {
         result.add(list1.get(index1));
         index1 += 1;
       }
-      else {
-        result.add(list2.get(index2));
-        index2 += 1;
-      }
+      //removed else part of the if statement hehe >:)
+      result.add(list2.get(index2));
+      index2 += 1;
     }
     while(index1 < list1.size()) {
       result.add(list1.get(index1));
