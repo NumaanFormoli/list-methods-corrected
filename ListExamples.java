@@ -28,10 +28,11 @@ class ListExamples {
       if(list1.get(index1).compareTo(list2.get(index2)) < 0) {
         result.add(list1.get(index1));
         index1 += 1;
-      }
+      } else {
       //removed else part of the if statement hehe >:)
       result.add(list2.get(index2));
       index2 += 1;
+      }
     }
     while(index1 < list1.size()) {
       result.add(list1.get(index1));
